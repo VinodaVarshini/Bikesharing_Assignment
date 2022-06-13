@@ -48,7 +48,7 @@
     - Training our model using RFE
     - Multiple Linear regression using OLS statsmodel
     - Calculated Variance Inflation Factor
-   - Validating Assumptions of Linear regression
+  - Validating Assumptions of Linear regression
     - Normality of Error
     - Linear relationship between our independent and dependent variable
     - Checking for Homoscedasticity
@@ -59,6 +59,20 @@
 - We have obtained a good model which predicts the most important factors that influence renting a bike from BoomBikes.
 - Equation of the model comes out to be
   - __cnt = 0.1910 + 0.2341 `*` Year + 0.0909`*`Month_sep - 0.0551`*`season_spring + 0.0610`*`season_summer + 0.0959`*`season_winter - 0.2860`*`weathersit_Light Snow - 0.0801`*`weathersit_Mist -0.0969`*`holiday + 0.4782`*`temp - 0.1482`*`windspeed__
+  
+- Factors that are important for increasing the revenue for BoomBikes are  
+  - temp
+  - Year
+  - Month_Sep
+  - Season_summer
+  - Season_winter
+ 
+- Factors that do not support renting of bikes are 
+  - Season_spring
+  - Weathersit_Light snow
+  - Weathersit_Mist
+  - Holiday
+  - Windspeed
   
 - Evaluating our model with test data gave us good values for 
   - __*R-Squared          : 0.8035441330582012*__
@@ -89,8 +103,5 @@
  - libraries used for model building
    - scikit-learn 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Contact
+This project was developed by Vinoda Varshini Rajaopal [https://github.com/VinodaVarshini] as part of Executive PG Programme in Machine Learning and AI form upGrad & IIIT-Bangalore.
