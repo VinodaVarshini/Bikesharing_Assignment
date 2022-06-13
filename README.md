@@ -38,10 +38,22 @@
 > __Business Goal:__
 >You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
-> They want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
--  Which variables are significant in predicting the demand for shared bikes.
--  How well those variables describe the bike demands
-
+## Analysis of the problem
+  - They want to understand the factors affecting the demand for these shared bikes in the American market
+    -  Which variables are significant in predicting the demand for shared bikes.
+    -  How well those variables describe the bike demands
+  - Approach in finding demand for US BoomBikes   
+    - Performed Exploratory Data Analysis on independent variables to understand the patten in our data.
+    - Performed Linear Regression model
+    - Training our model using RFE
+    - Multiple Linear regression using OLS statsmodel
+    - Calculated Variance Inflation Factor
+   - Validating Assumptions of Linear regression
+    - Normality of Error
+    - Linear relationship between our independent and dependent variable
+    - Checking for Homoscedasticity
+    - Absence of Multicollinearity
+    - No autocorrelation of errors
 
 ## Conclusions
 - We have obtained a good model which predicts the most important factors that influence renting a bike from BoomBikes.
@@ -63,7 +75,7 @@
   - __windspeed__ also affects the bike rental count.
   
 - __BoomBikes__ can consider the following suggestions to increase their revenue
-  - During __September__ there are high chances of people renting bike, so we can increase the number of bikes in     their dock.
+  - During __September__ there are high chances of people renting bike, so we can increase the number of bikes in their dock.
   - During __Fall and Summer__ people prefer to rent bikes than other season. So, we can increase number of dock in places where the distance between our next dock is high.
 
 ## Technologies Used
